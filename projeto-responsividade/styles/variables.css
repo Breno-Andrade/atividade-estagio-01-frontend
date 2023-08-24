@@ -1,6 +1,7 @@
 :root{
     --background-color-main: rgb(9, 14, 22);
-    --text-color: rgb(255, 255, 255);
+    --title-color: rgb(255, 255, 255);
+    --text-color: rgb(217, 217, 217);
     --text-color-with-opacity: rgba(255, 255, 255, .5);
     --purple: rgb(123, 74, 226);
     --purple-with-opacity: rgba(122, 74, 226, 0.5); 
