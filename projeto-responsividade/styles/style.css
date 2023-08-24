@@ -17,11 +17,11 @@ body {
 }
 
 h1, h2, h3 {
-    color: var(--title-color);
+    color: var(--text-color);
 }
 
 p {
-    color: var(--paragraph-color);
+    color: var(--text-color-with-opacity);
 }
 
 .title-design {
