@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero-section.css">
+
+    <style>
+        
+    </style>
 </head>
 <body>
     <header class="header">
@@ -29,14 +34,22 @@
     </header>
     
     <main>
-        <section>
-            <img src="images/AvatarAndIcons.png" alt="Desenho de uma foto do usuario">
-            <p>Saudações!</p>
-            <h1>Henrique Sousa</h1>
-            <p>Front-end developer · UI designer</p>
-            <div>
-                <a href="#">Baixar CV <img src="images/ArrowLineDown.png" alt="Ícone informativo de download"></a>
-                <p><img src="images/WhatsappLogo.png" alt="Logo Whatsapp">Vamos conversar</p>
+        <section class="hero-section section-margin">
+            <img class="hero-section__img" src="images/AvatarAndIcons.png" alt="Desenho de uma foto do usuario">
+            <p class="title-design">👋 Saudações!</p>
+            <h1 class="hero-section__title">Henrique Sousa</h1>
+            <p class="hero-section__content">Front-end developer · UI designer</p>
+            <div class="hero-section__wrapper">
+                <div class="download__wrapper">
+                    <a class="download__a" href="#">Baixar CV</a>
+                    <img class="download__img" src="images/ArrowLineDown.png" alt="Ícone informativo de download">
+                </div>
+
+                <div class="lets-talk__wrapper">
+                    <img class="lets-talk__img" src="images/WhatsappLogo.png" alt="Logo Whatsapp">
+                    <p class="lets-talk__content">Vamos conversar</p>
+                </div>
+                
             </div>
         </section>
 
