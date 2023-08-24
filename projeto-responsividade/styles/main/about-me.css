@@ -24,6 +24,8 @@
     color: var(--text-color-with-opacity);
 
     margin: 3rem 0 1.6rem;
+
+    list-style-type: none;
 }
 
 .about-me__content li {
