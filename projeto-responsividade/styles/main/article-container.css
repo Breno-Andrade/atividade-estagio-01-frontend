@@ -7,8 +7,8 @@
 }
 
 .article-container__article {
-    flex-basis: 24.6rem;
-    height: 20rem;
+    width: 246px;
+    height: 200px;
     
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     border: 1px var(--purple-with-opacity) solid;
     border-radius: 15px;
 
-    margin: 3.2rem;
+    margin: 1.6rem;
 }
 
 .article__content {
