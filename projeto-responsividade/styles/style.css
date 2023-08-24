@@ -11,8 +11,6 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
-    width: 90%;
-    margin: 0 auto;
     background-color: var(--background-color-main);
 }
 
@@ -22,6 +20,11 @@ h1, h2, h3 {
 
 p {
     color: var(--text-color-with-opacity);
+}
+
+.width-padding {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .title-design {
@@ -51,4 +54,6 @@ p {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+
+    list-style-type: none;
 }
