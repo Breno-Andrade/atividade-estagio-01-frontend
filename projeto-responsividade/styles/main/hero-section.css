@@ -1,7 +1,13 @@
 @import "variables.css";
 
+.container__img {
+    width: 100;
+    text-align: center;
+}
+
 .hero-section__img {
     width: 100%;
+    max-width: 560px;
 }
 
 .hero-section__title {
