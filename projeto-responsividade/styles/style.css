@@ -25,16 +25,18 @@ p {
 }
 
 .title-design {
-    display: inline-block;
     background-color: rgba(123, 74, 226, 0.1);
     border-radius: .5rem;
     color: var(--purple);
+
+    width: fit-content;
 
     margin-top: 2rem;
     padding: 0 1rem;
     
     line-height: 32px;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 1.4rem; 
 }
 
 .section-margin {
