@@ -42,3 +42,13 @@ p {
 .section-margin {
     margin-bottom: 7rem;
 }
+
+.nav {
+    margin: 1.6rem;
+}
+
+.nav__list {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
