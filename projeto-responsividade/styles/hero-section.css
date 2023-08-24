@@ -1,0 +1,50 @@
+@import "variables.css";
+
+.hero-section__img {
+    width: 100%;
+}
+
+.hero-section__title {
+    font-size: 4.8rem;
+    padding: 1.3rem 0;
+}
+
+.hero-section__content {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.hero-section__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.download__wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.download__a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--purple-with-opacity);
+}
+
+.lets-talk__wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+    padding: 1rem;
+    outline: solid var(--purple-with-opacity) 1px;
+    border-radius: .5rem;
+}
+
+.lets-talk__content {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--purple-with-opacity);
+}
