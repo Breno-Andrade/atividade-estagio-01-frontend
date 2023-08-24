@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
+    padding-top: 3rem;
     background-color: var(--background-color-main);
 }
 
@@ -47,7 +48,7 @@ p {
 }
 
 .nav {
-    margin: 1.6rem;
+    margin: 1rem;
 }
 
 .nav__list {
