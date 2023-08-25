@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header/header.css">
+    <link rel="stylesheet" href="styles/main/nav-icons.css">
     <link rel="stylesheet" href="styles/main/hero-section.css">
     <link rel="stylesheet" href="styles/main/article-container.css">
     <link rel="stylesheet" href="styles/main/about-me.css">
     <link rel="stylesheet" href="styles/footer/footer.css">
 </head>
 <body>    
-    <header class="header">
-        <img src="images/Logo.svg" alt="Logo do profissional" class="logo">
+    <header class="header width-padding">
+        <img src="images/Logo.svg" alt="Logo do profissional" class="header__img">
 
         <nav class="header__nav">
             <ul class="header__list">
                 <li class="header__list-item">
-                    <a href="#">Home</a>
+                    <a id="header__item--selected" href="#">Home</a>
                 </li>
                 <li class="header__list-item">
                     <a href="#">Sobre mim</a>
@@ -49,8 +50,9 @@
     <main class="width-padding">
 
         <section class="hero-section section-margin">
-            <nav class="nav">
-                <ul class="nav__list">
+
+            <nav id="hero__nav-icons--mobile" class="nav-icons">
+                <ul id="hero__nav-list" class="nav__list">
                     <li class="nav__list-item">
                         <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
                     </li>
@@ -68,9 +70,25 @@
             </div>
 
             <div class="hero-section__container-content">
-                <p class="title-design">&#x1F44B Saudações!</p>
+                <p class="title-design">&#x1F44B; Saudações!</p>
+
                 <h1 class="hero-section__title">Henrique Sousa</h1>
+
                 <p class="hero-section__content">Front-end developer · UI designer</p>
+
+                <nav id="hero__nav-icons--desktop" class="nav-icons">
+                    <ul id="hero__nav-list" class="nav__list">
+                        <li class="nav__list-item">
+                            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" target="_blank"><img src="images/github.svg" alt="Ícone do Github"></a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#" target="_blank"><img src="images/behance.svg" alt="Ícone do Behance"></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
 
             <div class="hero-section__wrapper">
@@ -121,7 +139,7 @@
     </main>
 
     <footer class="footer">
-        <nav class="nav">
+        <nav class="nav-icons">
             <ul class="nav__list">
                 <li>
                     <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
