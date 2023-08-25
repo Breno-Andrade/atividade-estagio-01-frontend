@@ -23,11 +23,12 @@
 	margin: 1.6rem;
 }
 
-.article__content {
-	color: var(--text-color);
+.article__img {
+	margin-bottom: 10px;
 }
 
-.article__content p {
+.article__content {
+	color: var(--text-color);
 	font-size: 1.6rem;
 }
 
