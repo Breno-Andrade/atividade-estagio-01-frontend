@@ -1,0 +1,29 @@
+.nav-icons {
+	margin: 1rem;
+}
+
+.nav__list {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+
+	list-style-type: none;
+}
+
+#hero__nav-icons--desktop {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    #hero__nav-icons--mobile {
+		display: none;
+	}
+
+    #hero__nav-icons--desktop {
+        display: block;
+    }
+
+	#hero__nav-list {
+		justify-content: left;
+	}
+}
