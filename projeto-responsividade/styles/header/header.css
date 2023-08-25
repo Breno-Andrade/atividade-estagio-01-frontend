@@ -24,7 +24,7 @@
 
 	.header__list {
 		display: flex;
-		gap: 16px;
+		gap: 10px;
 	}
 
 	.header__list-item a{
@@ -32,9 +32,25 @@
 		font-weight: 200;
 		text-decoration: none;
 		color: var(--text-color-with-opacity);
+
+		padding: 5px;
 	}
 
 	#header__item--selected {
 		color: var(--purple);
+	}
+}
+
+@media (min-width: 1440px){
+	.header__list-item a{
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 1920px){
+
+	.header__list-item a{
+		font-size: 1.8em;
+		padding: 10px;
 	}
 }
