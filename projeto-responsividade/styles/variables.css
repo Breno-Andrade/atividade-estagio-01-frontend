@@ -5,5 +5,6 @@
 	--text-color-with-opacity: rgba(255, 255, 255, 0.5);
 	--purple: rgb(123, 74, 226);
 	--purple-with-opacity: rgba(123, 74, 226, 0.5);
+	--purple-for-background: rgba(123, 74, 226, 0.05);
 	--footer-color: rgba(122, 74, 226, 0.1);
 }
