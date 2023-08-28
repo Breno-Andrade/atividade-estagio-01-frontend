@@ -80,10 +80,6 @@
 		align-items: center;
 	}
 
-	.container__img {
-		flex-grow: 2;
-	}
-
 	.hero-section__img {
 		max-width: 340px;
 	}
@@ -91,7 +87,6 @@
 	.hero-section__container-content {
 		order: -1;
 		margin-bottom: 0;
-		flex-grow: 1;
 	}
 
 	.hero-section__title {
@@ -106,7 +101,6 @@
 		align-items: end;
 		flex-direction: column;
 		gap: 0;
-		flex-grow: 1;
 	}
 
 	.download__wrapper {
@@ -123,6 +117,14 @@
 }
 
 @media (min-width: 1024px) {
+	.hero-section__container-content {
+		width: 20vw;;
+	}
+
+	.hero-section__wrapper{
+		width: 20vw;
+	}
+
 	.hero-section__img {
 		max-width: 420px;
 	}
