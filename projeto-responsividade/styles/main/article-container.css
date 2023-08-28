@@ -40,6 +40,66 @@
 }
 
 #article-container--selected {
-	background-color: rgba(123, 75, 226, 0.08);
+	background-color: var(--footer-color);
 	border: none;
+}
+
+.experiences-list {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	.article__content strong {
+		font-size: 3.2rem;
+		font-weight: 600;
+	}
+
+	.experiences {
+		border-top: 1px solid var(--purple-with-opacity);
+		border-bottom: 1px solid var(--purple-with-opacity);
+	}
+
+	.experiences-container {
+		max-width: 900px;
+		margin: 0 auto;
+
+		padding: 100px 0;
+	}
+
+	.article-container {
+		justify-content: space-between;
+	}
+
+	.article-container__article:nth-child(2) {
+		order: 3;
+	}
+
+	.article-container__article {
+		margin: 32px 0;
+	}
+
+	.experiences-list {
+		display: flex;
+		justify-content: space-between;
+		background-color: var(--footer-color);
+
+		list-style: none;
+		text-align: center;
+
+		padding: 28px 0;
+		border-radius: 16px;
+	}
+
+	.experiences-list__item {
+		width: 246px;
+	}
+
+	.experiences-list__item p {
+		color: var(--purple);
+		font-size: 1.6rem;
+	}
+
+	.experiences-list__item strong {
+		font-size: 3.2rem;
+	}
 }
