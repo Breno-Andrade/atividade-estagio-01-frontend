@@ -10,7 +10,26 @@
 	margin-top: 0;
 }
 
-.footer p {
+.footer__content {
 	font-weight: 200;
 	font-size: 1.2rem;
+}
+
+@media(min-width: 600px){
+	#footer__nav {
+		grid-area: nav-icons;
+		margin: 0;
+	}
+
+	.footer__content {
+		grid-area: footer__content;
+		font-size: 1.6rem;
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr; 
+		grid-template-areas: "footer__content nav-icons ";
+		align-items: center;
+	}
 }
