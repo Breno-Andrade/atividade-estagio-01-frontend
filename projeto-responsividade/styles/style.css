@@ -48,3 +48,9 @@ p {
 .section-margin {
 	margin-bottom: 7rem;
 }
+
+@media(min-width: 600px) {
+	.title-design {
+		font-size: 2rem;
+	}
+}
