@@ -11,11 +11,12 @@
 
 .hero-section__img {
 	width: 100%;
-	max-width: 260px;
+	min-width: 260px;
 }
 
 .hero-section__title {
 	font-size: 4.8rem;
+	font-weight: 800;
 	margin: 1.6rem 0 0.41rem;
 	width: 8ch;
 }
@@ -26,10 +27,9 @@
 
 .hero-section__content {
 	font-size: 1.8rem;
-	font-weight: 200;
-	color: var(--text-color);
+	font-weight: 400;
+	color: var(--text-color-with-opacity);
 
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	line-height: 3.7rem;
 }
 
@@ -70,7 +70,7 @@
 	font-size: 1.6rem;
 	font-weight: 600;
 	color: var(--purple-with-opacity);
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
 }
 
 @media (min-width: 600px) {
