@@ -37,6 +37,10 @@
 	display: inline;
 }
 
+.about-me-list {
+	text-align: justify;
+}
+
 .about-me-list__content {
 	font-weight: 200;
 
