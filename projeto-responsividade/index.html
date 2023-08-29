@@ -1,195 +1,382 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Breno Andrade">
-    <meta name="description" content="Exercício da primeira semana de estagio na NewGo">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Breno Andrade" />
+		<meta
+			name="description"
+			content="Exercício da primeira semana de estagio na NewGo"
+		/>
 
-    <title>Responsividade</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/header/header.css">
-    <link rel="stylesheet" href="styles/main/nav-icons.css">
-    <link rel="stylesheet" href="styles/main/hero-section.css">
-    <link rel="stylesheet" href="styles/main/experiences.css">
-    <link rel="stylesheet" href="styles/main/about-me.css">
-    <link rel="stylesheet" href="styles/footer/footer.css">
-</head>
-<body>    
-    <header class="header width-padding section-margin">
-        <img src="images/Logo.svg" alt="Logo do profissional" class="header__img">
+		<title>Responsividade</title>
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="styles/header/header.css" />
+		<link rel="stylesheet" href="styles/main/nav-icons.css" />
+		<link rel="stylesheet" href="styles/main/hero-section.css" />
+		<link rel="stylesheet" href="styles/main/experiences.css" />
+		<link rel="stylesheet" href="styles/main/about-me.css" />
+		<link rel="stylesheet" href="styles/main/portfolio.css" />
+		<link rel="stylesheet" href="styles/footer/footer.css" />
+	</head>
+	<body>
+		<header class="header width-padding section-margin">
+			<img
+				src="images/Logo.svg"
+				alt="Logo do profissional"
+				class="header__img"
+			/>
 
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__list-item">
-                    <a id="header__item--selected" href="#">Home</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#about-me">Sobre mim</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">Portfólio</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">Skills</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#experiences">Carreira</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">Recomendações</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a id="header__item--selected" href="#">Home</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#about-me">Sobre mim</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#">Portfólio</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#">Skills</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#experiences">Carreira</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#">Recomendações</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-    <main>
-        <section class="hero-section section-margin width-padding">
+		<main>
+			<section class="hero-section section-margin width-padding">
+				<nav id="hero__nav-icons--mobile" class="nav-icons">
+					<ul id="hero__nav-list" class="nav__list">
+						<li class="nav__list-item">
+							<a href="#" target="_blank"
+								><img
+									src="images/linkedin.svg"
+									alt="Ícone do LinkedIn"
+							/></a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#" target="_blank"
+								><img
+									src="images/github.svg"
+									alt="Ícone do Github"
+							/></a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#" target="_blank"
+								><img
+									src="images/behance.svg"
+									alt="Ícone do Behance"
+							/></a>
+						</li>
+					</ul>
+				</nav>
 
-            <nav id="hero__nav-icons--mobile" class="nav-icons">
-                <ul id="hero__nav-list" class="nav__list">
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank"><img src="images/github.svg" alt="Ícone do Github"></a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank"><img src="images/behance.svg" alt="Ícone do Behance"></a>
-                    </li>
-                </ul>
-            </nav>
+				<div class="container__img">
+					<img
+						class="hero-section__img"
+						src="images/AvatarAndIcons.svg"
+						alt="Desenho de uma foto do usuario"
+					/>
+				</div>
 
-            <div class="container__img">
-                <img class="hero-section__img" src="images/AvatarAndIcons.svg" alt="Desenho de uma foto do usuario">
-            </div>
+				<div class="hero-section__container-content">
+					<p class="title-design">&#x1F44B; Saudações!</p>
 
-            <div class="hero-section__container-content">
-                <p class="title-design">&#x1F44B; Saudações!</p>
+					<h1 class="hero-section__title">Henrique Sousa</h1>
 
-                <h1 class="hero-section__title">Henrique Sousa</h1>
+					<p class="hero-section__content">
+						Front-end developer · UI designer
+					</p>
 
-                <p class="hero-section__content">Front-end developer · UI designer</p>
+					<nav id="hero__nav-icons--desktop" class="nav-icons">
+						<ul id="hero__nav-list" class="nav__list">
+							<li class="nav__list-item">
+								<a href="#" target="_blank"
+									><img
+										src="images/linkedin.svg"
+										alt="Ícone do LinkedIn"
+								/></a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" target="_blank"
+									><img
+										src="images/github.svg"
+										alt="Ícone do Github"
+								/></a>
+							</li>
+							<li class="nav__list-item">
+								<a href="#" target="_blank"
+									><img
+										src="images/behance.svg"
+										alt="Ícone do Behance"
+								/></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 
-                <nav id="hero__nav-icons--desktop" class="nav-icons">
-                    <ul id="hero__nav-list" class="nav__list">
-                        <li class="nav__list-item">
-                            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
-                        </li>
-                        <li class="nav__list-item">
-                            <a href="#" target="_blank"><img src="images/github.svg" alt="Ícone do Github"></a>
-                        </li>
-                        <li class="nav__list-item">
-                            <a href="#" target="_blank"><img src="images/behance.svg" alt="Ícone do Behance"></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+				<div class="hero-section__wrapper">
+					<div class="download__wrapper">
+						<a class="download__a" href="#">Baixar CV</a>
 
-            <div class="hero-section__wrapper">
-                
-                <div class="download__wrapper">
-                    <a class="download__a" href="#">Baixar CV</a>
+						<img
+							class="download__img"
+							src="images/ArrowLineDown.svg"
+							alt="Ícone informativo de download"
+						/>
+					</div>
 
-                    <img class="download__img" src="images/ArrowLineDown.svg" alt="Ícone informativo de download">
+					<div class="lets-talk__wrapper">
+						<img
+							class="lets-talk__img"
+							src="images/WhatsappLogo.svg"
+							alt="Logo Whatsapp"
+						/>
+						<p class="lets-talk__content">Vamos conversar</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="experiences" class="experiences section-margin">
+				<div class="experiences-container">
+					<div class="article-container">
+						<article class="article-container__article">
+							<img
+								class="article__img"
+								src="images/CodeIcon.svg"
+								alt="Imagem ilustrativa"
+							/>
+							<p class="article__content">
+								3 anos como <br /><strong>programador</strong>
+							</p>
+						</article>
+
+						<article class="article-container__article">
+							<img
+								class="article__img"
+								src="images/DesignIcon.svg"
+								alt="Imagem ilustrativa"
+							/>
+							<p class="article__content">
+								4 anos como <br /><strong>designer</strong>
+							</p>
+						</article>
+
+						<article
+							id="article-container--selected"
+							class="article-container__article"
+						>
+							<img
+								class="article__img"
+								src="images/ProjectsIcon.svg"
+								alt="Imagem ilustrativa"
+							/>
+							<p class="article__content">
+								7 anos de <br /><strong>trabalhos</strong>
+							</p>
+						</article>
+					</div>
+
+					<ul class="experiences-list">
+						<li class="experiences-list__item">
+							<p>
+								Desenvolvedor <br /><strong>Front-end</strong>
+							</p>
+						</li>
+						<li class="experiences-list__item">
+							<p>
+								Dezenas de projetos e <br /><strong
+									>Experiências</strong
+								>
+							</p>
+						</li>
+						<li class="experiences-list__item">
+							<p>
+								Designer Freelancer e <br /><strong
+									>UI · UX</strong
+								>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section
+				id="about-me"
+				class="about-me section-margin width-padding"
+			>
+				<div class="about-me__container-img">
+					<img
+						class="about-me__img"
+						src="images/ProfilePic.png"
+						alt="Foto de perfil"
+					/>
+				</div>
+
+				<div class="about-me__container-content">
+					<h2 class="title-design">&#x1F9D0;Sobre mim</h2>
+					<p class="about-me__name">
+						Washington Henrique <span>Fernandes de Souza</span>
+					</p>
+					<ul class="about-me-list">
+						<li class="about-me-list__item">
+							<p class="about-me-list__content">
+								<span
+									>&#x1F44B; Me chamo Washigtons Fernandes de
+									Sousa.</span
+								>
+								Mas pode me chamar apenas de Henrique. Prazer!
+							</p>
+						</li>
+						<li class="about-me-list__item">
+							<p class="about-me-list__content">
+								<span>&#x1F468;</span> Há mais de 2 anos
+								desenvolvendo e programando interfaces com
+								JavaScript, React JS e Typescript.
+							</p>
+						</li>
+						<li class="about-me-list__item">
+							<p class="about-me-list__content">
+								<span>&#x1F393;</span> Graduado em Análise e
+								Desenvolvimento de Sistemas pela Fatec de São
+								José dos Campos.
+							</p>
+						</li>
+						<li class="about-me-list__item">
+							<p class="about-me-list__content">
+								<span>&#x1F4A1;</span> Interesses em
+								desenvolvimento Front-end com React, React
+								Native e UX/UI Design.
+							</p>
+						</li>
+					</ul>
+					<p class="about-me__content">
+						&#x1F680;Tentando ser um pouquinho melhor do que ontem
+						todos os dias.
+					</p>
+				</div>
+			</section>
+
+			<section
+				id="portfolio"
+				class="portfolio section-margin"
+			>
+				<h2 class="title-design">&#x1F517;Portfólio</h2>
+				<p class="subtitle-design">Trabalhos e projetos</p>
+
+				<ul class="skills-list">
+					<li class="skills-list__item">
+						<img
+							src="images/DesignIconSmall.svg"
+							alt="Icone de design"
+						/>
+						<p>UI Design</p>
+					</li>
+					<li class="skills-list__item">
+						<img
+							src="images/DesignIconSmall.svg"
+							alt="Icone de design"
+						/>
+						<p>UI Design</p>
+					</li>
+					<li class="skills-list__item">
+						<img
+							src="images/DesignIconSmall.svg"
+							alt="Icone de design"
+						/>
+						<p>UI Design</p>
+					</li>
+				</ul>
+
+				<ul class="projects-list">
+					<li class="projects-list__item">
+						<h3 class="projects-list__title">Move.it</h3>
+						<p class="projects-list__desc">
+							Aplicação da NLW#04 da<br> Rocketseat. Desenvolvida com <br>
+							React. Plataforma de Pomodoro com exercícios.
+						</p>
+						<ul class="technologies-list">
+							<li class="technologies-list__item">
+								<p>React JS</p>
+							</li>
+							<li class="technologies-list__item">
+								<p>Typescript</p>
+							</li>
+						</ul>
+						<img
+							src="images/ImageProject.svg"
+							alt="Imagem de exibição projeto"
+							class="project__img"
+						/>
+					</li>
+					<li class="projects-list__item">
+						<h3 class="projects-list__title">Move.it</h3>
+						<p class="projects-list__desc">
+							Aplicação da NLW#04 da<br> Rocketseat. Desenvolvida com <br>
+							React. Plataforma de Pomodoro com exercícios.
+						</p>
+						<ul class="technologies-list">
+							<li class="technologies-list__item">
+								<p>React JS</p>
+							</li>
+							<li class="technologies-list__item">
+								<p>Typescript</p>
+							</li>
+						</ul>
+						<img
+							src="images/ImageProject.svg"
+							alt="Imagem de exibição projeto"
+							class="project__img"
+						/>
+					</li>
+					
+				</ul>
+
+                <div class="see-more">
+                    <a class="see-more__link" href="#" target="_blank">Ver mais projetos na Behance</a>
+                    <img src="images/ArrowRight.svg" alt="Flecha para direita"/>
                 </div>
+				
+			</section>
+		</main>
 
-                <div class="lets-talk__wrapper">
-                    <img class="lets-talk__img" src="images/WhatsappLogo.svg" alt="Logo Whatsapp">
-                    <p class="lets-talk__content">Vamos conversar</p>
-                </div>
-                
-            </div>
-        </section>
-
-        <section id="experiences" class="experiences section-margin">
-            <div class="experiences-container">
-                <div class="article-container">
-                    <article class="article-container__article">
-                        <img class="article__img" src="images/CodeIcon.svg" alt="Imagem ilustrativa">
-                        <p class="article__content">3 anos como <br><strong>programador</strong></p>
-                    </article>
-        
-                    <article class="article-container__article">
-                        <img class="article__img" src="images/DesignIcon.svg" alt="Imagem ilustrativa">
-                        <p class="article__content">4 anos como <br><strong>designer</strong></p>
-                    </article>
-        
-                    <article id="article-container--selected" class="article-container__article">
-                        <img class="article__img" src="images/ProjectsIcon.svg" alt="Imagem ilustrativa">
-                        <p class="article__content">7 anos de <br><strong>trabalhos</strong></p>
-                    </article>
-                </div>
-    
-                <ul class="experiences-list">
-                    <li class="experiences-list__item">
-                        <p>Desenvolvedor <br><strong>Front-end</strong></p>
-                    </li>
-                    <li class="experiences-list__item">
-                        <p>Dezenas de projetos e <br><strong>Experiências</strong></p>
-                    </li>
-                    <li class="experiences-list__item">
-                        <p>Designer Freelancer e <br><strong>UI · UX</strong></p>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-        
-        <section id="about-me" class="about-me section-margin width-padding">
-            <div class="about-me__container-img">
-                <img class="about-me__img" src="images/ProfilePic.png" alt="Foto de perfil">
-            </div>
-
-            <div class="about-me__container-content">
-                <h2 class="title-design">&#x1F9D0;Sobre mim</h2>
-                <p class="about-me__name">Washington Henrique <span>Fernandes de Souza</span> </p>
-                <ul class="about-me-list">
-                    <li class="about-me-list__item">
-                        <p class="about-me-list__content">
-                            <span>&#x1F44B; Me chamo Washigtons Fernandes de Sousa.</span> Mas pode me chamar apenas de Henrique. Prazer!
-                        </p>
-                    </li>
-                    <li class="about-me-list__item">
-                        <p class="about-me-list__content">
-                            <span>&#x1F468;</span> Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript.
-                        </p>
-                    </li>
-                    <li class="about-me-list__item">
-                        <p class="about-me-list__content">
-                            <span>&#x1F393;</span> Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos.
-                        </p>
-                    </li>
-                    <li class="about-me-list__item">
-                        <p class="about-me-list__content">
-                            <span>&#x1F4A1;</span> Interesses em desenvolvimento Front-end com React, React Native e UX/UI Design.
-                        </p>
-                    </li>
-                </ul>
-                <p class="about-me__content">&#x1F680;Tentando ser um pouquinho melhor do que ontem todos os dias.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <nav id="footer__nav" class="nav-icons">
-            <ul class="nav__list">
-                <li>
-                    <a href="#" target="_blank"><img src="images/linkedin.svg" alt="Ícone do LinkedIn"></a>
-                </li>
-                <li>
-                    <a href="#" target="_blank"><img src="images/github.svg" alt="Ícone do Github"></a>
-                </li>
-                <li>
-                    <a href="#" target="_blank"><img src="images/behance.svg" alt="Ícone do Behance"></a>
-                </li>
-            </ul>
-        </nav>
-        <p class="footer__content">Copyright © Henrique Sousa · 2022</p>
-    </footer>
-</body>
+		<footer class="footer">
+			<nav id="footer__nav" class="nav-icons">
+				<ul class="nav__list">
+					<li>
+						<a href="#" target="_blank"
+							><img
+								src="images/linkedin.svg"
+								alt="Ícone do LinkedIn"
+						/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"
+							><img src="images/github.svg" alt="Ícone do Github"
+						/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"
+							><img
+								src="images/behance.svg"
+								alt="Ícone do Behance"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+			<p class="footer__content">Copyright © Henrique Sousa · 2022</p>
+		</footer>
+	</body>
 </html>
