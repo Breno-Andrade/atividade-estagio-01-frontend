@@ -1,103 +1,209 @@
 @import "variables.css";
 
 .portfolio {
-    padding-left: 5%;
+	padding-left: 5%;
 }
 
 .skills-list {
-    display: flex;
-    overflow-x: hidden;
-    gap: 8px;
+	display: flex;
+	overflow-x: hidden;
+	gap: 8px;
 }
 
 .skills-list__item {
-    display: flex;
-    gap: 8px;
-    justify-content: space-evenly;
-    align-items: center;
+	display: flex;
+	gap: 8px;
+	justify-content: space-evenly;
+	align-items: center;
 
-    border: 1px solid var(--purple-with-opacity);
-    border-radius: 8px;
+	border: 1px solid var(--purple-with-opacity);
+	border-radius: 8px;
 
-    padding: 8px;
-    width: fit-content;
+	padding: 8px;
+	height: 40px;
+}
+
+.skills-list__item--selected {
+	display: none;
 }
 
 .skills-list__item img {
-    width: 27px;
+	width: 27px;
 }
 
 .skills-list__item p {
-    display: inline-block;
-    width: max-content;
-    color: var(--purple-with-opacity);
-    font-weight: 600;
+	display: inline-block;
+	width: max-content;
+	color: var(--purple-with-opacity);
+	font-weight: 600;
 }
 
 .projects-list {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
 
-    overflow-x: hidden;
-    margin-top: 29px;
+	overflow-x: hidden;
+	margin-top: 29px;
 }
 
 .projects-list__item {
-    width: 300px;
-    padding: 30px 24px;
+	width: 300px;
+	padding: 30px 24px;
 
-    border: 1px solid var(--purple-with-opacity);
-    border-radius: 16px;
+	border: 1px solid var(--purple-with-opacity);
+	border-radius: 16px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
 }
 
 .projects-list__title {
-    color: var(--title-color);
-    font-size: 1.6rem;
-    font-weight: 700;
+	color: var(--title-color);
+	font-size: 1.6rem;
+	font-weight: 700;
 }
 
 .projects-list__desc {
-    color: var(--text-color-with-opacity);
+	width: 28ch;
+	color: var(--text-color-with-opacity);
 }
 
 .technologies-list {
-    display: flex;
-    gap: 8px;
-    list-style-type: none;
+	display: flex;
+	gap: 8px;
+	list-style-type: none;
 }
 
 .technologies-list__item {
-    background-color: var(--footer-color);
-    border-radius: 8px;
+	background-color: var(--footer-color);
+	border-radius: 8px;
 }
 
 .technologies-list__item p {
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-align: center;
 
-    color: var(--purple);
-    padding: 8px 17px;
+	color: var(--purple);
+	padding: 8px 17px;
 }
 
 .see-more {
-    width: 100%;
-    padding: 20px 24px;
+	width: 100%;
+	padding: 20px 24px;
 
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .see-more__link {
-    color: var(--purple-with-opacity);
-    font-size: 1.4rem;
-    font-weight: 600;
+	color: var(--purple-with-opacity);
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+@media (min-width: 1920px) {
+	.portfolio {
+		padding: 0 5%;
+	}
+
+	.portfolio__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		margin-top: 28px;
+	}
+
+	.skills-list {
+		gap: 32px;
+	}
+
+	.skills-list__item {
+		width: 184px;
+		height: 60px;
+		border-radius: 16px;
+		justify-content: space-evenly;
+	}
+
+	.skills-list__item p {
+		font-size: 2rem;
+	}
+
+	.skills-list__item img {
+		width: 45px;
+	}
+
+	.skills-list__item:nth-child(2n) {
+		display: none;
+	}
+
+	.skills-list__item--selected {
+		display: flex;
+
+		background-color: var(--footer-color);
+
+		width: 184px;
+		height: 60px;
+		padding: 8px;
+
+		justify-content: space-evenly;
+		align-items: center;
+
+		border-radius: 16px;
+	}
+
+	.skills-list__item--selected img {
+		width: 45px;
+	}
+
+	.skills-list__item--selected p {
+		font-size: 2rem;
+		font-weight: 600;
+		color: var(--purple-with-opacity);
+	}
+
+	.projects-list {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 56px;
+
+		margin-top: 100px;
+	}
+
+	.projects-list__item {
+		width: 360px;
+		height: 460px;
+	}
+
+	.projects-list__item:nth-child(4n + 2) {
+		background-color: var(--footer-color);
+		border: none;
+	}
+
+	.projects-list img {
+		width: 100%;
+	}
+
+	.projects-list__title {
+		font-size: 2rem;
+	}
+
+	.projects-list__desc {
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.see-more {
+		padding: 48px 5%;
+		gap: 8px;
+	}
+
+	.see-more__link {
+		font-size: 2rem;
+	}
 }
