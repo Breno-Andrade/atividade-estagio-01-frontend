@@ -181,8 +181,17 @@
 }
 
 @media (min-width: 1024px) {
+	.technologies-list__item p {
+		font-size: 1.6rem;
+	}
+
 	.video-projects__list {
 		justify-content: space-evenly;
+		margin-top: 53px;
+	}
+
+	.video-projects__desc {
+		font-size: 2rem;
 	}
 
 	.video__content {
