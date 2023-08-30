@@ -4,6 +4,10 @@
 	padding-left: 5%;
 }
 
+.portfolio__title {
+	width: 9ch;
+}
+
 .skills-list {
 	display: flex;
 	overflow-x: hidden;
@@ -45,6 +49,19 @@
 
 	overflow-x: hidden;
 	margin-top: 29px;
+}
+
+.card-appearance {
+	min-width: 300px;
+	padding: 30px 24px;
+
+	border: 1px solid var(--purple-with-opacity);
+	border-radius: 16px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
 }
 
 .projects-list__item {
@@ -104,6 +121,100 @@
 	color: var(--purple-with-opacity);
 	font-size: 1.4rem;
 	font-weight: 600;
+}
+
+.play-video {
+	width: 100%;
+	max-width: 442px;
+	background-image: url("../../images/TransparencePlay.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px;
+}
+
+.video__content {
+	width: 100%;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+.video-projects__list {
+	display: flex;
+	gap: 16px;
+
+	overflow-x: hidden;
+}
+
+.video-projects__title {
+	margin-bottom: 9px;
+}
+
+.video-projects__desc {
+	margin-bottom: 25px;
+	color: var(--text-color-with-opacity);
+	font-weight: 200;
+}
+
+.video-card__desc {
+	margin: 0;
+}
+
+.video-card__attend {
+	width: 100%;
+
+	display: flex;
+	gap: 8px;
+	justify-content: end;
+	align-items: center;
+
+	margin-top: 16px;
+}
+
+.video-card__attend p {
+	color: var(--text-color-with-opacity);
+	font-weight: 200;
+}
+
+.video-content-desktop {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	.video-projects__list {
+		justify-content: space-evenly;
+	}
+
+	.video__content {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.video-content-mobile {
+		display: none;
+	}
+
+	.video-content-desktop {
+		display: block;
+	}
+
+	.video-card__attend {
+		margin: 0;
+	}
+
+	.video__card-appearance {
+		width: 500px;
+		height: 400px;
+		justify-content: space-between;
+
+		font-size: 1.8rem;
+	}
+
+	.video__card-appearance:nth-child(2n) {
+		background-color: var(--footer-color);
+	}
 }
 
 @media (min-width: 1920px) {
