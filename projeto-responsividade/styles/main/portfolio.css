@@ -223,6 +223,7 @@
 
 	.video__card-appearance:nth-child(2n) {
 		background-color: var(--footer-color);
+		border: none;
 	}
 }
 
