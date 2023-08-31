@@ -90,6 +90,10 @@
 		font-size: 1rem;
 	}
 
+	.hero-talk__content {
+		font-size: 1rem;
+	}
+
 }
 
 @media (min-width: 1024px) {
@@ -117,6 +121,9 @@
 		font-size: 1.2rem;
 	}
 
+	.hero-talk__content {
+		font-size: 1.2rem;
+	}
 	
 }
 
@@ -137,6 +144,9 @@
 		font-size: 1.4rem;
 	}
 
+	.hero-talk__content {
+		font-size: 1.4rem;
+	}
 	
 }
 
@@ -153,5 +163,7 @@
 		font-size: 1.6rem;
 	}
 
-	
+	.hero-talk__content {
+		font-size: 1.6rem;
+	}
 }
