@@ -1,0 +1,55 @@
+@import "variables.css";
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title {
+    width: 11ch;
+}
+
+.techs-list {
+    gap: 22.5px;
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.techs-list__item img{
+    width: 44.9px;
+    height: 44.9px;  
+}
+
+@media(min-width: 600px){
+    .skills {
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .skills__title {
+        width: auto;
+        margin-bottom: 100px;
+    }
+
+    .skills__title-design {
+        margin-bottom: 28px;
+    }
+
+    .skills__title br {
+        display: none;
+    }
+
+    .skills__desc {
+        margin-bottom: 45px;
+    }
+
+    .techs-list {
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .techs-list__item img {
+        width: 64px;
+        height: 64px;
+    }
+}
