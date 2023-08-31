@@ -1,0 +1,46 @@
+.section-padding-left {
+    padding-left: 5%;
+}
+
+.section-desc {
+    color: var(--text-color-with-opacity);
+    font-weight: 200;
+    margin-bottom: 24.5px;
+}
+
+.section-desc span {
+    display: none;
+}
+
+.list-flex-hidden-gap{
+    display: flex;
+    overflow-x: hidden;
+    gap: 8px;
+}
+
+.card-appearance {
+	min-width: 300px;
+	padding: 30px 24px;
+
+	border: 1px solid var(--purple-with-opacity);
+	border-radius: 16px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+@media(min-width: 600px){
+    .section-desc {
+        font-size: 2.4rem;
+    }
+
+    .section-desc span {
+        display: inline;
+    }
+
+    .section-padding-left{
+        padding-left: 0;
+    }
+}
