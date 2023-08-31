@@ -31,6 +31,28 @@
 	gap: 10px;
 }
 
+.lets-talk__wrapper {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+
+	padding: 1.2rem 1rem;
+	outline: solid var(--purple-with-opacity) 1px;
+	border-radius: 0.8rem;
+}
+
+.lets-talk__img {
+	display: block;
+	width: 2rem;
+}
+
+.lets-talk__content {
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: var(--purple-with-opacity);
+	
+}
+
 .inline-desktop {
 	display: none;
 }
