@@ -137,7 +137,7 @@
 	}
 
 	.area-list__content {
-		width: 100%;
+		width: 52ch;
 		max-height: 78px;
 		flex-grow: 1;
 
