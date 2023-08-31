@@ -1,21 +1,21 @@
 .section-padding-left {
-    padding-left: 5%;
+	padding-left: 5%;
 }
 
 .section-desc {
-    color: var(--text-color-with-opacity);
-    font-weight: 200;
-    margin-bottom: 24.5px;
+	color: var(--text-color-with-opacity);
+	font-weight: 200;
+	margin-bottom: 24.5px;
 }
 
 .section-desc span {
-    display: none;
+	display: none;
 }
 
-.list-flex-hidden-gap{
-    display: flex;
-    overflow-x: hidden;
-    gap: 8px;
+.list-flex-hidden-gap {
+	display: flex;
+	overflow-x: hidden;
+	gap: 8px;
 }
 
 .card-appearance {
@@ -32,47 +32,47 @@
 }
 
 .inline-desktop {
-    display: none;
+	display: none;
 }
 
 .block-desktop {
-    display: none;
+	display: none;
 }
 
 .inline-mobile {
-    display: inline;
+	display: inline;
 }
 
 .block-mobile {
-    display: block;
+	display: block;
 }
 
-@media(min-width: 600px){
-    .inline-desktop {
-        display: inline;
-    }
+@media (min-width: 600px) {
+	.inline-desktop {
+		display: inline;
+	}
 
-    .block-desktop {
-        display: block;
-    }
+	.block-desktop {
+		display: block;
+	}
 
-    .inline-mobile {
-        display: none;
-    }
-    
-    .block-mobile {
-        display: none;
-    }
+	.inline-mobile {
+		display: none;
+	}
 
-    .section-desc {
-        font-size: 2.4rem;
-    }
+	.block-mobile {
+		display: none;
+	}
 
-    .section-desc span {
-        display: inline;
-    }
+	.section-desc {
+		font-size: 2.4rem;
+	}
 
-    .section-padding-left{
-        padding-left: 0;
-    } 
+	.section-desc span {
+		display: inline;
+	}
+
+	.section-padding-left {
+		padding-left: 0;
+	}
 }
