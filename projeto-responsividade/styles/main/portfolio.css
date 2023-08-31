@@ -2,6 +2,7 @@
 
 .portfolio {
 	padding-left: 5%;
+	overflow-x: hidden;
 }
 
 .portfolio__title {
@@ -143,7 +144,7 @@
 	display: flex;
 	gap: 16px;
 
-	overflow-x: hidden;
+	
 }
 
 .video-projects__title {
@@ -224,6 +225,10 @@
 	.video__card-appearance:nth-child(2n) {
 		background-color: var(--footer-color);
 		border: none;
+	}
+
+	.play-video {
+		min-height: 261px;
 	}
 }
 
