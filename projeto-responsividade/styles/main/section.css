@@ -31,7 +31,39 @@
 	gap: 10px;
 }
 
+.inline-desktop {
+    display: none;
+}
+
+.block-desktop {
+    display: none;
+}
+
+.inline-mobile {
+    display: inline;
+}
+
+.block-mobile {
+    display: block;
+}
+
 @media(min-width: 600px){
+    .inline-desktop {
+        display: inline;
+    }
+
+    .block-desktop {
+        display: block;
+    }
+
+    .inline-mobile {
+        display: none;
+    }
+    
+    .block-mobile {
+        display: none;
+    }
+
     .section-desc {
         font-size: 2.4rem;
     }
@@ -42,5 +74,5 @@
 
     .section-padding-left{
         padding-left: 0;
-    }
+    } 
 }
